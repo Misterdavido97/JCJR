@@ -12,7 +12,8 @@ body{
     align-items: center;
 }
 .headerDiv>img{
-
+    width: auto;
+    height: 30px;
 }
 .logo,.title1,.headerDiv{
     display: inline-block;
@@ -26,7 +27,7 @@ body{
     display: flex;
     align-items: center;
 }
-.slidde{
+.slide{
     align-items: center;
     text-align: -webkit-center;
     justify-content: center;
@@ -35,10 +36,10 @@ body{
     height: 60vh;
     margin-bottom: 10vh;
 }
-.slidde button{
+.slide button{
     height: 100%;
 }
-.slidde img{
+.slide img{
     width: 80vw;
     height: 100%;
 }
