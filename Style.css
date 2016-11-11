@@ -96,6 +96,7 @@ input{
     font-family: 'Shrikhand', cursive;
 }
 textarea{
+    width: 80%;
     border-radius: 2vw;
     padding: 2vh;
     font-family: 'Shrikhand', cursive;
