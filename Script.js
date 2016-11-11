@@ -14,4 +14,12 @@ $(function () {
             slide=0;
         $('.slides').attr('src','slides/slide'+ ++slide +'.png');
     });
+    var fondo =$('.fondo');
+    fondo.find('img').height($('body').height());
+    fondo.find('img').width($('body').width());
+
+    $(window).on('resize', function () {
+        fondo.find('img').height($('body').height());
+        fondo.find('img').width($('body').width());
+    });
 });

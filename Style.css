@@ -6,10 +6,10 @@ body{
 .header{
     text-align: center;
     margin: auto;
-    margin-bottom: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 .headerDiv>img{
     width: auto;
@@ -21,11 +21,13 @@ body{
 }
 .title1{
     margin: 10vh 10vw;
+    font-family: 'Shrikhand', cursive;
 }
 .headerDiv{
     margin: auto 1vw;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .slide{
     align-items: center;
@@ -35,6 +37,8 @@ body{
     width: 100%;
     height: 60vh;
     margin-bottom: 10vh;
+    background-color: black;
+    padding: 10vh 0;
 }
 .slide button{
     height: 100%;
@@ -46,6 +50,13 @@ body{
 .informacion{
     text-align: center;
     margin-bottom: 10vh;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 10vw;
+    background-color: black;
+    color: white;
+}
+.informacion h3{
+    font-size: 20px;
 }
 footer{
     width: 100%;
@@ -53,7 +64,8 @@ footer{
     text-align: -webkit-left;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8vh;
+    margin-bottom: 15vh;
+    font-family: 'Cabin', sans-serif;
 }
 .footer>div{
     display: inline-block;
@@ -67,12 +79,52 @@ form>div{
 }
 .title2{
     text-align: center;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 10vw;
+    background-color: black;
+    color: white;
+}
+.title2 h3{
+    padding: 15px;
+    width: auto;
+    margin: 0 auto;
 }
 input{
     border-radius: 2vw;
     padding: 1vh;
+    font-family: 'Shrikhand', cursive;
 }
 textarea{
     border-radius: 2vw;
     padding: 2vh;
+    font-family: 'Shrikhand', cursive;
+}
+.fondo{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.submit{
+    padding: 1vw 2vw;
+    border: transparent;
+    background: rgba(243,217,200,1);
+    background: -moz-linear-gradient(left, rgba(243,217,200,1) 0%, rgba(183,118,78,1) 0%, rgba(211,164,136,1) 56%, rgba(218,175,149,1) 69%, rgba(233,200,180,1) 99%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,217,200,1)), color-stop(0%, rgba(183,118,78,1)), color-stop(56%, rgba(211,164,136,1)), color-stop(69%, rgba(218,175,149,1)), color-stop(99%, rgba(233,200,180,1)));
+    background: -webkit-linear-gradient(left, rgba(243,217,200,1) 0%, rgba(183,118,78,1) 0%, rgba(211,164,136,1) 56%, rgba(218,175,149,1) 69%, rgba(233,200,180,1) 99%);
+    background: -o-linear-gradient(left, rgba(243,217,200,1) 0%, rgba(183,118,78,1) 0%, rgba(211,164,136,1) 56%, rgba(218,175,149,1) 69%, rgba(233,200,180,1) 99%);
+    background: -ms-linear-gradient(left, rgba(243,217,200,1) 0%, rgba(183,118,78,1) 0%, rgba(211,164,136,1) 56%, rgba(218,175,149,1) 69%, rgba(233,200,180,1) 99%);
+    background: linear-gradient(to right, rgba(243,217,200,1) 0%, rgba(183,118,78,1) 0%, rgba(211,164,136,1) 56%, rgba(218,175,149,1) 69%, rgba(233,200,180,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3d9c8', endColorstr='#e9c8b4', GradientType=1 );
+}
+.back{
+    border: transparent;
+    background: rgba(248,80,50,1);
+    background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 84%, rgba(231,56,39,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(0%, rgba(241,111,92,1)), color-stop(84%, rgba(246,41,12,1)), color-stop(100%, rgba(231,56,39,1)));
+    background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 84%, rgba(231,56,39,1) 100%);
+    background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 84%, rgba(231,56,39,1) 100%);
+    background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 84%, rgba(231,56,39,1) 100%);
+    background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 0%, rgba(246,41,12,1) 84%, rgba(231,56,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
 }
