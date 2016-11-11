@@ -22,4 +22,16 @@ $(function () {
         fondo.find('img').height($('body').height());
         fondo.find('img').width($('body').width());
     });
+    var imagen = $('.slide').find('img');
+    var touch = new Hammer(imagen[0]);
+    touch.on('swipeleft',function (event) {
+            if(slide == CanImg)
+                slide=0;
+            $('.slides').attr('src','slides/slide'+ ++slide +'.png');
+    });
+    touch.on('swiperight',function (event) {
+            if(slide == 1)
+                slide = (CanImg+1);
+            $('.slides').attr('src','slides/slide'+ --slide +'.png');
+    });
 });
