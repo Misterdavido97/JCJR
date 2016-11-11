@@ -145,4 +145,7 @@ textarea{
     .slide>img{
         width: 100vw;
     }
+    .title1{
+        margin: 0 auto;
+    }
 }
